@@ -103,7 +103,7 @@ header img{
     color: goldenrod;
 }
 .un{
-    color: gray;
+    filter: grayscale(100%);
 }
 
 
@@ -130,3 +130,6 @@ header img{
     }
 }
 
+.ratings img, .time img{
+    height: 15px;
+}
